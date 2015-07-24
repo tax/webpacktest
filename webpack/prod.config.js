@@ -1,7 +1,7 @@
 var path = require("path")
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var webpack = require('webpack');
-var output = path.join(__dirname, '../build');
+var output = path.join(__dirname, '../static/build');
 
 module.exports = {
     context: path.resolve(__dirname, '..'),
